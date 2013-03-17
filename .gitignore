@@ -5,3 +5,10 @@ Icon?
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+
+
+#ignore examples
+positions.rst
+ex/
+pres/
+slides/
