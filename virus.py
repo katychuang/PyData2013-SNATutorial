@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
-This example illustrates the sudden appearance of a
-giant connected component in a binomial random graph.
+
+This example is from http://networkx.github.com/documentation/latest/examples/drawing/giant_component.html
 
 Requires pygraphviz and matplotlib to draw.
 

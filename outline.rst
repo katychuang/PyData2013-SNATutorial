@@ -15,6 +15,8 @@ Social Network Analysis
 ----------------
 
 Katherine Chuang
+.................
+
 @katychuang
 ............
 
@@ -29,6 +31,7 @@ Katherine Chuang
 
 #. Tracking health epidemics (i.e. spread of infections)
 #. Measuring an online community (i.e. conversation patterns)
+#. Graphically display data
 
 .. image :: images/virus.png
 	:width: 100%
@@ -43,24 +46,24 @@ Katherine Chuang
 
 .. image :: images/small_directed_network_labeled.png
 
-**A graph can be directed.**
+**Edges can have direction.**
 
 ----
 
 .. image :: images/graph_example.jpg
 
-**A graph can also be weighted**
+**Edges can be weighted**
 
 ----
-
-Social Roles
-============
 
 .. image :: images/sna-roles.jpg
+	:width: 90%
+
+**Nodes can be of a type (social roles)**
 
 ----
 
-Social Network Metrics for individual nodes
+Describing individual nodes
 ================================================
 
 * Centrality - an individual node's number of links
@@ -73,7 +76,7 @@ Social Network Metrics for individual nodes
 
 ----
 
-Other metrics for subgroups
+Describing subgroups
 ============================
 
 * Cliques - a group where every node is directly connected to each other
@@ -302,13 +305,19 @@ NetworkX modules
 
 -----
 
-A stroll through the code.
+Download: http://bit.ly/15WDFW9
+================================
 
-Documentation: http://networkx.github.com/documentation/latest/contents.html
-MatPlotLib: http://matplotlib.org/users/gridspec.html
+.. code :: python
 
-Link: http://networkx.github.com/documentation/latest/examples/drawing/giant_component.html
+	# Script:
+	https://github.com/katychuang/PyData2013-SNATutorial/blob/master/virus.py
 
+	# Documentation:
+	http://networkx.github.com/documentation/latest/contents.html
+
+	# MatPlotLib:
+	http://matplotlib.org/users/gridspec.html
 
 ----
 
