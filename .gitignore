@@ -8,7 +8,8 @@ Desktop.ini
 
 
 #ignore examples
+build/
 positions.rst
 ex/
-pres/
+pdf/
 
